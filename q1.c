@@ -2,6 +2,9 @@
 
 int main()
 {
-    printf("Hello, World!\n");
-    return 0;
+ int a, b , sum;
+ printf("enter two numbers:");
+ scanf("%d %d", &a, &b);
+ sum = a + b;
+ printf("sum = %d", sum);
 }
